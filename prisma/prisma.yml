@@ -1,0 +1,6 @@
+#endpoint: ''
+endpoint: https://us1.prisma.sh/eduardo-lopes-740bd0/hackernews-node/dev
+datamodel: datamodel.prisma
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
